@@ -20,6 +20,9 @@ All blocks have same properties.
   - Timestamp
   - Defficulty level
   - Nonce (POW)
-  - Hash of transactions
+  - Root Hash of transactions block (Merkle tree)
+
+* Block of transactions
+  - All hashes of transactions in a block form a Merkle tree.
 
 
