@@ -11,7 +11,7 @@ All grammar fixes and any other contributions are always welcome.
 * This network not have any point of failure.
 * Each block is linked to the previous block in the chain.
 
-# Block
+## Block
 
 All blocks have same properties.
 
@@ -25,4 +25,17 @@ All blocks have same properties.
 * Block of transactions
   - All hashes of transactions in a block form a Merkle tree.
 
+## Double Spending
 
+Double spending is an operation where the same transaction is made twice. 
+
+### How does bitcoin prevent double-spending?
+
+* Bitcoin has built-in mechanisms to deal with such attacks. 
+* A lot of computing power is used to validate the transaction.
+* The more confirmations, the less chance of falsification.
+
+# Hashing
+
+Hashing is an algorithm that takes any string as input and gives you
+another string as output that has a fixed length.
